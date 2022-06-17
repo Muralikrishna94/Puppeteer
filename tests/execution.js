@@ -6,7 +6,7 @@ describe('My first puppeteer test ', () => {
     const browser = await puppeteer.launch({ headless: false });
     const page = await browser.newPage();
     await page.goto('https://opensource-demo.orangehrmlive.com/');
-    await page.waitForTimeout(2500);
+    await page.waitForTimeout(3500);
     await browser.close();
 
 
